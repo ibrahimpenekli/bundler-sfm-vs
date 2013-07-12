@@ -1,0 +1,9 @@
+﻿Build started 12/07/2013 11:40:52.
+     1>Project "D:\dev\git\bundler-sfm-vs\lib\cminpack\cminpack.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\cminpack.lastbuildstate".
+     1>Done Building Project "D:\dev\git\bundler-sfm-vs\lib\cminpack\cminpack.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.01

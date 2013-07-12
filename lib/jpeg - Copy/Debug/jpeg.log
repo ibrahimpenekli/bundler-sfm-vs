@@ -1,0 +1,565 @@
+﻿Build started 12/07/2013 10:39:14.
+     1>Project "D:\dev\git\bundler-sfm\lib\jpeg\jpeg.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\jpeg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JPEG_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\jcapimin.c src\jcapistd.c src\jccoefct.c src\jccolor.c src\jcdctmgr.c src\jchuff.c src\jcinit.c src\jcmainct.c src\jcmarker.c src\jcmaster.c src\jcomapi.c src\jcparam.c src\jcphuff.c src\jcprepct.c src\jcsample.c src\jctrans.c src\jdapimin.c src\jdapistd.c src\jdatadst.c src\jdatasrc.c src\jdcoefct.c src\jdcolor.c src\jddctmgr.c src\jdhuff.c src\jdinput.c src\jdmainct.c src\jdmarker.c src\jdmaster.c src\jdmerge.c src\jdphuff.c src\jdpostct.c src\jdsample.c src\jdtrans.c src\jerror.c src\jfdctflt.c src\jfdctfst.c src\jfdctint.c src\jidctflt.c src\jidctfst.c src\jidctint.c src\jidctred.c src\jmemmgr.c src\jmemnobs.c src\jquant1.c src\jquant2.c src\jutils.c
+         jutils.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jutils.c(75): warning C4273: 'jdiv_round_up' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(371) : see previous definition of 'jdiv_round_up'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jutils.c(84): warning C4273: 'jround_up' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(372) : see previous definition of 'jround_up'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jutils.c(119): warning C4273: 'jcopy_sample_rows' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(373) : see previous definition of 'jcopy_sample_rows'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jutils.c(148): warning C4273: 'jcopy_block_row' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(376) : see previous definition of 'jcopy_block_row'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jutils.c(168): warning C4273: 'jzero_far' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(378) : see previous definition of 'jzero_far'
+         jquant2.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jquant2.c(1245): warning C4273: 'jinit_2pass_quantizer' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(365) : see previous definition of 'jinit_2pass_quantizer'
+         jquant1.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jquant1.c(822): warning C4273: 'jinit_1pass_quantizer' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(364) : see previous definition of 'jinit_1pass_quantizer'
+         jmemnobs.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemnobs.c(36): warning C4273: 'jpeg_get_small' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jmemsys.h(47) : see previous definition of 'jpeg_get_small'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemnobs.c(42): warning C4273: 'jpeg_free_small' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jmemsys.h(48) : see previous definition of 'jpeg_free_small'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemnobs.c(56): warning C4273: 'jpeg_get_large' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jmemsys.h(60) : see previous definition of 'jpeg_get_large'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemnobs.c(62): warning C4273: 'jpeg_free_large' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jmemsys.h(62) : see previous definition of 'jpeg_free_large'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemnobs.c(75): warning C4273: 'jpeg_mem_available' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jmemsys.h(103) : see previous definition of 'jpeg_mem_available'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemnobs.c(89): warning C4273: 'jpeg_open_backing_store' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jmemsys.h(180) : see previous definition of 'jpeg_open_backing_store'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemnobs.c(101): warning C4273: 'jpeg_mem_init' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jmemsys.h(197) : see previous definition of 'jpeg_mem_init'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemnobs.c(107): warning C4273: 'jpeg_mem_term' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jmemsys.h(198) : see previous definition of 'jpeg_mem_term'
+         jmemmgr.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemmgr.c(1029): warning C4273: 'jinit_memory_mgr' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(368) : see previous definition of 'jinit_memory_mgr'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemmgr.c(1106): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jmemmgr.c(1109): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+         jidctred.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jidctred.c(121): warning C4273: 'jpeg_idct_4x4' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(110) : see previous definition of 'jpeg_idct_4x4'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jidctred.c(274): warning C4273: 'jpeg_idct_2x2' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(113) : see previous definition of 'jpeg_idct_2x2'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jidctred.c(382): warning C4273: 'jpeg_idct_1x1' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(116) : see previous definition of 'jpeg_idct_1x1'
+         jidctint.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jidctint.c(151): warning C4273: 'jpeg_idct_islow' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(101) : see previous definition of 'jpeg_idct_islow'
+         jidctfst.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jidctfst.c(171): warning C4273: 'jpeg_idct_ifast' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(104) : see previous definition of 'jpeg_idct_ifast'
+         jidctflt.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jidctflt.c(71): warning C4273: 'jpeg_idct_float' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(107) : see previous definition of 'jpeg_idct_float'
+         jfdctint.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jfdctint.c(141): warning C4273: 'jpeg_fdct_islow' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(97) : see previous definition of 'jpeg_fdct_islow'
+         jfdctfst.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jfdctfst.c(115): warning C4273: 'jpeg_fdct_ifast' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(98) : see previous definition of 'jpeg_fdct_ifast'
+         jfdctflt.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jfdctflt.c(60): warning C4273: 'jpeg_fdct_float' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdct.h(99) : see previous definition of 'jpeg_fdct_float'
+         jerror.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jerror.c(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jerror.c(199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jerror.c(232): warning C4273: 'jpeg_std_error' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(891) : see previous definition of 'jpeg_std_error'
+         jdtrans.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdtrans.c(46): warning C4273: 'jpeg_read_coefficients' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1022) : see previous definition of 'jpeg_read_coefficients'
+         jdsample.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdsample.c(400): warning C4273: 'jinit_upsampler' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(362) : see previous definition of 'jinit_upsampler'
+         jdpostct.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdpostct.c(251): warning C4273: 'jinit_d_post_controller' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(355) : see previous definition of 'jinit_d_post_controller'
+         jdphuff.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdphuff.c(642): warning C4273: 'jinit_phuff_decoder' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(360) : see previous definition of 'jinit_phuff_decoder'
+         jdmerge.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmerge.c(371): warning C4273: 'jinit_merged_upsampler' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(366) : see previous definition of 'jinit_merged_upsampler'
+         jdmaster.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmaster.c(86): warning C4273: 'jpeg_calc_output_dimensions' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1009) : see previous definition of 'jpeg_calc_output_dimensions'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmaster.c(516): warning C4273: 'jpeg_new_colormap' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(999) : see previous definition of 'jpeg_new_colormap'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmaster.c(544): warning C4273: 'jinit_master_decompress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(350) : see previous definition of 'jinit_master_decompress'
+         jdmarker.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmarker.c(1193): warning C4273: 'jpeg_resync_to_restart' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1044) : see previous definition of 'jpeg_resync_to_restart'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmarker.c(1263): warning C4273: 'jinit_marker_reader' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(358) : see previous definition of 'jinit_marker_reader'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmarker.c(1302): warning C4273: 'jpeg_save_markers' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1012) : see previous definition of 'jpeg_save_markers'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmarker.c(1351): warning C4273: 'jpeg_set_marker_processor' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1017) : see previous definition of 'jpeg_set_marker_processor'
+         Generating Code...
+         Compiling...
+         jdmainct.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdmainct.c(477): warning C4273: 'jinit_d_main_controller' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(351) : see previous definition of 'jinit_d_main_controller'
+         jdinput.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdinput.c(362): warning C4273: 'jinit_input_controller' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(357) : see previous definition of 'jinit_input_controller'
+         jdhuff.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdhuff.c(151): warning C4273: 'jpeg_make_d_derived_tbl' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdhuff.h(49) : see previous definition of 'jpeg_make_d_derived_tbl'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdhuff.c(296): warning C4273: 'jpeg_fill_bit_buffer' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdhuff.h(154) : see previous definition of 'jpeg_fill_bit_buffer'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdhuff.c(401): warning C4273: 'jpeg_huff_decode' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jdhuff.h(199) : see previous definition of 'jpeg_huff_decode'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdhuff.c(636): warning C4273: 'jinit_huff_decoder' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(359) : see previous definition of 'jinit_huff_decoder'
+         jddctmgr.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jddctmgr.c(248): warning C4273: 'jinit_inverse_dct' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(361) : see previous definition of 'jinit_inverse_dct'
+         jdcolor.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdcolor.c(305): warning C4273: 'jinit_color_deconverter' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(363) : see previous definition of 'jinit_color_deconverter'
+         jdcoefct.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdcoefct.c(677): warning C4273: 'jinit_d_coef_controller' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(353) : see previous definition of 'jinit_d_coef_controller'
+         jdatasrc.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdatasrc.c(183): warning C4273: 'jpeg_stdio_src' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(918) : see previous definition of 'jpeg_stdio_src'
+         jdatadst.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdatadst.c(131): warning C4273: 'jpeg_stdio_dest' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(917) : see previous definition of 'jpeg_stdio_dest'
+         jdapistd.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapistd.c(39): warning C4273: 'jpeg_start_decompress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(982) : see previous definition of 'jpeg_start_decompress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapistd.c(154): warning C4273: 'jpeg_read_scanlines' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(983) : see previous definition of 'jpeg_read_scanlines'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapistd.c(187): warning C4273: 'jpeg_read_raw_data' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(989) : see previous definition of 'jpeg_read_raw_data'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapistd.c(229): warning C4273: 'jpeg_start_output' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(995) : see previous definition of 'jpeg_start_output'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapistd.c(254): warning C4273: 'jpeg_finish_output' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(997) : see previous definition of 'jpeg_finish_output'
+         jdapimin.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapimin.c(31): warning C4273: 'jpeg_CreateDecompress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(909) : see previous definition of 'jpeg_CreateDecompress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapimin.c(92): warning C4273: 'jpeg_destroy_decompress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(913) : see previous definition of 'jpeg_destroy_decompress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapimin.c(104): warning C4273: 'jpeg_abort_decompress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1035) : see previous definition of 'jpeg_abort_decompress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapimin.c(242): warning C4273: 'jpeg_read_header' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(969) : see previous definition of 'jpeg_read_header'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapimin.c(288): warning C4273: 'jpeg_consume_input' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1000) : see previous definition of 'jpeg_consume_input'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapimin.c(335): warning C4273: 'jpeg_input_complete' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(998) : see previous definition of 'jpeg_input_complete'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapimin.c(350): warning C4273: 'jpeg_has_multiple_scans' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(994) : see previous definition of 'jpeg_has_multiple_scans'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jdapimin.c(370): warning C4273: 'jpeg_finish_decompress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(986) : see previous definition of 'jpeg_finish_decompress'
+         jctrans.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jctrans.c(39): warning C4273: 'jpeg_write_coefficients' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1023) : see previous definition of 'jpeg_write_coefficients'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jctrans.c(65): warning C4273: 'jpeg_copy_critical_parameters' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1025) : see previous definition of 'jpeg_copy_critical_parameters'
+         jcsample.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcsample.c(465): warning C4273: 'jinit_downsampler' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(344) : see previous definition of 'jinit_downsampler'
+         jcprepct.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcprepct.c(316): warning C4273: 'jinit_c_prep_controller' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(339) : see previous definition of 'jinit_c_prep_controller'
+         jcphuff.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcphuff.c(815): warning C4273: 'jinit_phuff_encoder' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(347) : see previous definition of 'jinit_phuff_encoder'
+         jcparam.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcparam.c(31): warning C4273: 'jpeg_add_quant_table' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(931) : see previous definition of 'jpeg_add_quant_table'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcparam.c(71): warning C4273: 'jpeg_set_linear_quality' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(928) : see previous definition of 'jpeg_set_linear_quality'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcparam.c(111): warning C4273: 'jpeg_quality_scaling' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(935) : see previous definition of 'jpeg_quality_scaling'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcparam.c(138): warning C4273: 'jpeg_set_quality' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(926) : see previous definition of 'jpeg_set_quality'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcparam.c(269): warning C4273: 'jpeg_set_defaults' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(921) : see previous definition of 'jpeg_set_defaults'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcparam.c(360): warning C4273: 'jpeg_default_colorspace' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(925) : see previous definition of 'jpeg_default_colorspace'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcparam.c(392): warning C4273: 'jpeg_set_colorspace' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(923) : see previous definition of 'jpeg_set_colorspace'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcparam.c(538): warning C4273: 'jpeg_simple_progression' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(936) : see previous definition of 'jpeg_simple_progression'
+         jcomapi.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcomapi.c(30): warning C4273: 'jpeg_abort' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1040) : see previous definition of 'jpeg_abort'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcomapi.c(70): warning C4273: 'jpeg_destroy' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1041) : see previous definition of 'jpeg_destroy'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcomapi.c(87): warning C4273: 'jpeg_alloc_quant_table' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(939) : see previous definition of 'jpeg_alloc_quant_table'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcomapi.c(99): warning C4273: 'jpeg_alloc_huff_table' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(940) : see previous definition of 'jpeg_alloc_huff_table'
+         jcmaster.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcmaster.c(544): warning C4273: 'jinit_c_master_control' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(335) : see previous definition of 'jinit_c_master_control'
+         jcmarker.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcmarker.c(646): warning C4273: 'jinit_marker_writer' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(348) : see previous definition of 'jinit_marker_writer'
+         jcmainct.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcmainct.c(246): warning C4273: 'jinit_c_main_controller' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(337) : see previous definition of 'jinit_c_main_controller'
+         jcinit.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcinit.c(31): warning C4273: 'jinit_compress_master' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(334) : see previous definition of 'jinit_compress_master'
+         Generating Code...
+         Compiling...
+         jchuff.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jchuff.c(181): warning C4273: 'jpeg_make_c_derived_tbl' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jchuff.h(41) : see previous definition of 'jpeg_make_c_derived_tbl'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jchuff.c(706): warning C4273: 'jpeg_gen_optimal_table' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jchuff.h(46) : see previous definition of 'jpeg_gen_optimal_table'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jchuff.c(892): warning C4273: 'jinit_huff_encoder' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(346) : see previous definition of 'jinit_huff_encoder'
+         jcdctmgr.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcdctmgr.c(346): warning C4273: 'jinit_forward_dct' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(345) : see previous definition of 'jinit_forward_dct'
+         jccolor.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jccolor.c(353): warning C4273: 'jinit_color_converter' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(343) : see previous definition of 'jinit_color_converter'
+         jccoefct.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jccoefct.c(406): warning C4273: 'jinit_c_coef_controller' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpegint.h(341) : see previous definition of 'jinit_c_coef_controller'
+         jcapistd.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapistd.c(39): warning C4273: 'jpeg_start_compress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(943) : see previous definition of 'jpeg_start_compress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapistd.c(79): warning C4273: 'jpeg_write_scanlines' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(945) : see previous definition of 'jpeg_write_scanlines'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapistd.c(122): warning C4273: 'jpeg_write_raw_data' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(951) : see previous definition of 'jpeg_write_raw_data'
+         jcapimin.c
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(31): warning C4273: 'jpeg_CreateCompress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(907) : see previous definition of 'jpeg_CreateCompress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(89): warning C4273: 'jpeg_destroy_compress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(912) : see previous definition of 'jpeg_destroy_compress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(101): warning C4273: 'jpeg_abort_compress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(1034) : see previous definition of 'jpeg_abort_compress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(120): warning C4273: 'jpeg_suppress_tables' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(937) : see previous definition of 'jpeg_suppress_tables'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(148): warning C4273: 'jpeg_finish_compress' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(948) : see previous definition of 'jpeg_finish_compress'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(194): warning C4273: 'jpeg_write_marker' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(956) : see previous definition of 'jpeg_write_marker'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(215): warning C4273: 'jpeg_write_m_header' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(960) : see previous definition of 'jpeg_write_m_header'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(227): warning C4273: 'jpeg_write_m_byte' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(962) : see previous definition of 'jpeg_write_m_byte'
+     1>d:\dev\git\bundler-sfm\lib\jpeg\src\jcapimin.c(255): warning C4273: 'jpeg_write_tables' : inconsistent dll linkage
+                 d:\dev\git\bundler-sfm\lib\jpeg\src\jpeglib.h(966) : see previous definition of 'jpeg_write_tables'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\jpeg.dll.embed.manifest.res" Debug\jpeg_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\dev\git\bundler-sfm\vc++\Debug\jpeg.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\jpeg.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\dev\git\bundler-sfm\vc++\Debug\jpeg.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\dev\git\bundler-sfm\vc++\Debug\jpeg.lib" /MACHINE:X86 /DLL Debug\jpeg.dll.embed.manifest.res
+         Debug\jcapimin.obj
+         Debug\jcapistd.obj
+         Debug\jccoefct.obj
+         Debug\jccolor.obj
+         Debug\jcdctmgr.obj
+         Debug\jchuff.obj
+         Debug\jcinit.obj
+         Debug\jcmainct.obj
+         Debug\jcmarker.obj
+         Debug\jcmaster.obj
+         Debug\jcomapi.obj
+         Debug\jcparam.obj
+         Debug\jcphuff.obj
+         Debug\jcprepct.obj
+         Debug\jcsample.obj
+         Debug\jctrans.obj
+         Debug\jdapimin.obj
+         Debug\jdapistd.obj
+         Debug\jdatadst.obj
+         Debug\jdatasrc.obj
+         Debug\jdcoefct.obj
+         Debug\jdcolor.obj
+         Debug\jddctmgr.obj
+         Debug\jdhuff.obj
+         Debug\jdinput.obj
+         Debug\jdmainct.obj
+         Debug\jdmarker.obj
+         Debug\jdmaster.obj
+         Debug\jdmerge.obj
+         Debug\jdphuff.obj
+         Debug\jdpostct.obj
+         Debug\jdsample.obj
+         Debug\jdtrans.obj
+         Debug\jerror.obj
+         Debug\jfdctflt.obj
+         Debug\jfdctfst.obj
+         Debug\jfdctint.obj
+         Debug\jidctflt.obj
+         Debug\jidctfst.obj
+         Debug\jidctint.obj
+         Debug\jidctred.obj
+         Debug\jmemmgr.obj
+         Debug\jmemnobs.obj
+         Debug\jquant1.obj
+         Debug\jquant2.obj
+         Debug\jutils.obj
+            Creating library D:\dev\git\bundler-sfm\vc++\Debug\jpeg.lib and object D:\dev\git\bundler-sfm\vc++\Debug\jpeg.exp
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jinit_memory_mgr imported in function _jpeg_CreateCompress
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_memory_mgr imported in function _jpeg_CreateDecompress
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jpeg_destroy imported in function _jpeg_destroy_compress
+     1>jdapimin.obj : warning LNK4049: locally defined symbol _jpeg_destroy imported
+     1>jerror.obj : warning LNK4049: locally defined symbol _jpeg_destroy imported
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jpeg_abort imported in function _jpeg_abort_compress
+     1>jdapimin.obj : warning LNK4049: locally defined symbol _jpeg_abort imported
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jinit_marker_writer imported in function _jpeg_write_tables
+     1>jcinit.obj : warning LNK4049: locally defined symbol _jinit_marker_writer imported
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_marker_writer imported
+     1>jcapistd.obj : warning LNK4217: locally defined symbol _jinit_compress_master imported in function _jpeg_start_compress
+     1>jcapistd.obj : warning LNK4217: locally defined symbol _jpeg_suppress_tables imported in function _jpeg_start_compress
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jpeg_suppress_tables imported in function _jpeg_write_coefficients
+     1>jccoefct.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_c_coef_controller
+     1>jdcoefct.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_d_coef_controller
+     1>jdpostct.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_d_post_controller
+     1>jdsample.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_upsampler
+     1>jquant1.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jquant2.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jccoefct.obj : warning LNK4217: locally defined symbol _jzero_far imported in function _compress_data
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jzero_far imported in function _transencode_master_selection
+     1>jdcoefct.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jmemmgr.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_float imported in function _jinit_forward_dct
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_ifast imported in function _jinit_forward_dct
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_islow imported in function _jinit_forward_dct
+     1>jchuff.obj : warning LNK4217: locally defined symbol _jpeg_alloc_huff_table imported in function _finish_pass_gather
+     1>jcparam.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jcphuff.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jdmarker.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_main_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_coef_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_huff_encoder imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_huff_encoder imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_phuff_encoder imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_phuff_encoder imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_forward_dct imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_prep_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_downsampler imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_color_converter imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_master_control imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_c_master_control imported
+     1>jcmaster.obj : warning LNK4217: locally defined symbol _jdiv_round_up imported in function _initial_setup
+     1>jdinput.obj : warning LNK4049: locally defined symbol _jdiv_round_up imported
+     1>jdmaster.obj : warning LNK4049: locally defined symbol _jdiv_round_up imported
+     1>jcparam.obj : warning LNK4217: locally defined symbol _jpeg_alloc_quant_table imported in function _jpeg_add_quant_table
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jpeg_alloc_quant_table imported
+     1>jdmarker.obj : warning LNK4049: locally defined symbol _jpeg_alloc_quant_table imported
+     1>jcphuff.obj : warning LNK4217: locally defined symbol _jpeg_make_c_derived_tbl imported in function _start_pass_phuff
+     1>jcphuff.obj : warning LNK4217: locally defined symbol _jpeg_gen_optimal_table imported in function _finish_pass_gather_phuff
+     1>jdsample.obj : warning LNK4217: locally defined symbol _jcopy_sample_rows imported in function _jinit_upsampler
+     1>jcprepct.obj : warning LNK4217: locally defined symbol _jcopy_sample_rows imported in function _expand_bottom_edge
+     1>jcsample.obj : warning LNK4049: locally defined symbol _jcopy_sample_rows imported
+     1>jdcolor.obj : warning LNK4049: locally defined symbol _jcopy_sample_rows imported
+     1>jdmerge.obj : warning LNK4217: locally defined symbol _jcopy_sample_rows imported in function _merged_2v_upsample
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jpeg_set_colorspace imported in function _jpeg_copy_critical_parameters
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jpeg_set_defaults imported in function _jpeg_copy_critical_parameters
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_input_controller imported in function _jpeg_CreateDecompress
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_marker_reader imported in function _jpeg_CreateDecompress
+     1>jdapistd.obj : warning LNK4217: locally defined symbol _jinit_master_decompress imported in function _jpeg_start_decompress
+     1>jdatasrc.obj : warning LNK4217: locally defined symbol _jpeg_resync_to_restart imported in function _jpeg_stdio_src
+     1>jdcoefct.obj : warning LNK4217: locally defined symbol _jcopy_block_row imported in function _decompress_smooth_data
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_float imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_ifast imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_islow imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_4x4 imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_2x2 imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_1x1 imported in function _start_pass
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_main_controller imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_coef_controller imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_d_coef_controller imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_huff_decoder imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_huff_decoder imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_phuff_decoder imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_phuff_decoder imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_inverse_dct imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_post_controller imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_upsampler imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_color_deconverter imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_merged_upsampler imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_2pass_quantizer imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_1pass_quantizer imported in function _master_selection
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_make_d_derived_tbl imported in function _start_pass_phuff_decoder
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_huff_decode imported in function _decode_mcu_DC_first
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_fill_bit_buffer imported in function _decode_mcu_DC_first
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_term imported in function _jinit_memory_mgr
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_get_small imported in function _jinit_memory_mgr
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_init imported in function _jinit_memory_mgr
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_get_large imported in function _alloc_large
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_open_backing_store imported in function _realize_virt_arrays
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_available imported in function _realize_virt_arrays
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_free_small imported in function _free_pool
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_free_large imported in function _free_pool
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\jpeg.dll.embed.manifest" /manifest Debug\jpeg.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\jpeg.dll.embed.manifest.res" Debug\jpeg_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\dev\git\bundler-sfm\vc++\Debug\jpeg.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\jpeg.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\dev\git\bundler-sfm\vc++\Debug\jpeg.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\dev\git\bundler-sfm\vc++\Debug\jpeg.lib" /MACHINE:X86 /DLL Debug\jpeg.dll.embed.manifest.res
+         Debug\jcapimin.obj
+         Debug\jcapistd.obj
+         Debug\jccoefct.obj
+         Debug\jccolor.obj
+         Debug\jcdctmgr.obj
+         Debug\jchuff.obj
+         Debug\jcinit.obj
+         Debug\jcmainct.obj
+         Debug\jcmarker.obj
+         Debug\jcmaster.obj
+         Debug\jcomapi.obj
+         Debug\jcparam.obj
+         Debug\jcphuff.obj
+         Debug\jcprepct.obj
+         Debug\jcsample.obj
+         Debug\jctrans.obj
+         Debug\jdapimin.obj
+         Debug\jdapistd.obj
+         Debug\jdatadst.obj
+         Debug\jdatasrc.obj
+         Debug\jdcoefct.obj
+         Debug\jdcolor.obj
+         Debug\jddctmgr.obj
+         Debug\jdhuff.obj
+         Debug\jdinput.obj
+         Debug\jdmainct.obj
+         Debug\jdmarker.obj
+         Debug\jdmaster.obj
+         Debug\jdmerge.obj
+         Debug\jdphuff.obj
+         Debug\jdpostct.obj
+         Debug\jdsample.obj
+         Debug\jdtrans.obj
+         Debug\jerror.obj
+         Debug\jfdctflt.obj
+         Debug\jfdctfst.obj
+         Debug\jfdctint.obj
+         Debug\jidctflt.obj
+         Debug\jidctfst.obj
+         Debug\jidctint.obj
+         Debug\jidctred.obj
+         Debug\jmemmgr.obj
+         Debug\jmemnobs.obj
+         Debug\jquant1.obj
+         Debug\jquant2.obj
+         Debug\jutils.obj
+            Creating library D:\dev\git\bundler-sfm\vc++\Debug\jpeg.lib and object D:\dev\git\bundler-sfm\vc++\Debug\jpeg.exp
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jinit_memory_mgr imported in function _jpeg_CreateCompress
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_memory_mgr imported in function _jpeg_CreateDecompress
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jpeg_destroy imported in function _jpeg_destroy_compress
+     1>jdapimin.obj : warning LNK4049: locally defined symbol _jpeg_destroy imported
+     1>jerror.obj : warning LNK4049: locally defined symbol _jpeg_destroy imported
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jpeg_abort imported in function _jpeg_abort_compress
+     1>jdapimin.obj : warning LNK4049: locally defined symbol _jpeg_abort imported
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jinit_marker_writer imported in function _jpeg_write_tables
+     1>jcinit.obj : warning LNK4049: locally defined symbol _jinit_marker_writer imported
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_marker_writer imported
+     1>jcapistd.obj : warning LNK4217: locally defined symbol _jinit_compress_master imported in function _jpeg_start_compress
+     1>jcapistd.obj : warning LNK4217: locally defined symbol _jpeg_suppress_tables imported in function _jpeg_start_compress
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jpeg_suppress_tables imported in function _jpeg_write_coefficients
+     1>jccoefct.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_c_coef_controller
+     1>jdcoefct.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_d_coef_controller
+     1>jdpostct.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_d_post_controller
+     1>jdsample.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_upsampler
+     1>jquant1.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jquant2.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jccoefct.obj : warning LNK4217: locally defined symbol _jzero_far imported in function _compress_data
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jzero_far imported in function _transencode_master_selection
+     1>jdcoefct.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jmemmgr.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_float imported in function _jinit_forward_dct
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_ifast imported in function _jinit_forward_dct
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_islow imported in function _jinit_forward_dct
+     1>jchuff.obj : warning LNK4217: locally defined symbol _jpeg_alloc_huff_table imported in function _finish_pass_gather
+     1>jcparam.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jcphuff.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jdmarker.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_main_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_coef_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_huff_encoder imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_huff_encoder imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_phuff_encoder imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_phuff_encoder imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_forward_dct imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_prep_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_downsampler imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_color_converter imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_master_control imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_c_master_control imported
+     1>jcmaster.obj : warning LNK4217: locally defined symbol _jdiv_round_up imported in function _initial_setup
+     1>jdinput.obj : warning LNK4049: locally defined symbol _jdiv_round_up imported
+     1>jdmaster.obj : warning LNK4049: locally defined symbol _jdiv_round_up imported
+     1>jcparam.obj : warning LNK4217: locally defined symbol _jpeg_alloc_quant_table imported in function _jpeg_add_quant_table
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jpeg_alloc_quant_table imported
+     1>jdmarker.obj : warning LNK4049: locally defined symbol _jpeg_alloc_quant_table imported
+     1>jcphuff.obj : warning LNK4217: locally defined symbol _jpeg_make_c_derived_tbl imported in function _start_pass_phuff
+     1>jcphuff.obj : warning LNK4217: locally defined symbol _jpeg_gen_optimal_table imported in function _finish_pass_gather_phuff
+     1>jdsample.obj : warning LNK4217: locally defined symbol _jcopy_sample_rows imported in function _jinit_upsampler
+     1>jcprepct.obj : warning LNK4217: locally defined symbol _jcopy_sample_rows imported in function _expand_bottom_edge
+     1>jcsample.obj : warning LNK4049: locally defined symbol _jcopy_sample_rows imported
+     1>jdcolor.obj : warning LNK4049: locally defined symbol _jcopy_sample_rows imported
+     1>jdmerge.obj : warning LNK4217: locally defined symbol _jcopy_sample_rows imported in function _merged_2v_upsample
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jpeg_set_colorspace imported in function _jpeg_copy_critical_parameters
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jpeg_set_defaults imported in function _jpeg_copy_critical_parameters
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_input_controller imported in function _jpeg_CreateDecompress
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_marker_reader imported in function _jpeg_CreateDecompress
+     1>jdapistd.obj : warning LNK4217: locally defined symbol _jinit_master_decompress imported in function _jpeg_start_decompress
+     1>jdatasrc.obj : warning LNK4217: locally defined symbol _jpeg_resync_to_restart imported in function _jpeg_stdio_src
+     1>jdcoefct.obj : warning LNK4217: locally defined symbol _jcopy_block_row imported in function _decompress_smooth_data
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_float imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_ifast imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_islow imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_4x4 imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_2x2 imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_1x1 imported in function _start_pass
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_main_controller imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_coef_controller imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_d_coef_controller imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_huff_decoder imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_huff_decoder imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_phuff_decoder imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_phuff_decoder imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_inverse_dct imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_post_controller imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_upsampler imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_color_deconverter imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_merged_upsampler imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_2pass_quantizer imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_1pass_quantizer imported in function _master_selection
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_make_d_derived_tbl imported in function _start_pass_phuff_decoder
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_huff_decode imported in function _decode_mcu_DC_first
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_fill_bit_buffer imported in function _decode_mcu_DC_first
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_term imported in function _jinit_memory_mgr
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_get_small imported in function _jinit_memory_mgr
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_init imported in function _jinit_memory_mgr
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_get_large imported in function _alloc_large
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_open_backing_store imported in function _realize_virt_arrays
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_available imported in function _realize_virt_arrays
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_free_small imported in function _free_pool
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_free_large imported in function _free_pool
+         jpeg.vcxproj -> D:\dev\git\bundler-sfm\vc++\Debug\jpeg.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\jpeg.unsuccessfulbuild".
+         Touching "Debug\jpeg.lastbuildstate".
+     1>Done Building Project "D:\dev\git\bundler-sfm\lib\jpeg\jpeg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.34
